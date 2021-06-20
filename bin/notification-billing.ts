@@ -4,4 +4,5 @@ import * as cdk from '@aws-cdk/core';
 import { NotificationBillingStack } from '../lib/notification-billing-stack';
 
 const app = new cdk.App();
-new NotificationBillingStack(app, 'NotificationBillingStack');
+new NotificationBillingStack(app, 'NotificationBillingStack', {
+});
