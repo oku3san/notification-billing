@@ -42,6 +42,7 @@ export class NotificationBillingStack extends cdk.Stack {
           budgetName: budgetName
         },
         role: lambdaRole,
+        deadLetterQueueEnabled: true
       }
     );
 
